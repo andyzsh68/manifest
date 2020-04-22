@@ -10,8 +10,8 @@
         <project path="optee_client"          name="OP-TEE/optee_client.git" />
         <project path="optee_os"              name="OP-TEE/optee_os.git" />
         <project path="optee_test"            name="OP-TEE/optee_test.git" />
-        <project path="build"                 name="OP-TEE/build.git">
-                <linkfile src="hikey960.mk" dest="build/Makefile" />
+        <project path="build"                 name="andyzsh68/optee-build.git">
+                <linkfile src="hikey960_xen.mk" dest="build/Makefile" />
         </project>
 
         <!-- linaro-swg gits -->
