@@ -10,7 +10,7 @@
         <project path="optee_client"          name="OP-TEE/optee_client.git" revision="refs/tags/3.9.0" clone-depth="1" />
         <project path="optee_os"              name="OP-TEE/optee_os.git" revision="refs/tags/3.9.0" clone-depth="1" />
         <project path="optee_test"            name="OP-TEE/optee_test.git" revision="refs/tags/3.9.0" clone-depth="1" />
-        <project path="build"                 name="andyzsh68/optee-build.git" revision="refs/tags/3.9.0" clone-depth="1">
+        <project path="build"                 name="andyzsh68/optee-build.git" revision="xen-3.9" clone-depth="1">
                 <linkfile src="hikey960_xen.mk" dest="build/Makefile" />
         </project>
 
