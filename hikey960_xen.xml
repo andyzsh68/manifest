@@ -8,7 +8,7 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_client"          name="OP-TEE/optee_client.git" revision="refs/tags/3.9.0" clone-depth="1" />
-        <project path="optee_os"              name="OP-TEE/optee_os.git" revision="refs/tags/3.9.0" clone-depth="1" />
+        <project path="optee_os"              name="andyzsh68/optee_os.git" revision="xen-3.9" clone-depth="1" />
         <project path="optee_test"            name="OP-TEE/optee_test.git" revision="refs/tags/3.9.0" clone-depth="1" />
         <project path="build"                 name="andyzsh68/optee-build.git" revision="xen-3.9" clone-depth="1">
                 <linkfile src="hikey960_xen.mk" dest="build/Makefile" />
@@ -28,5 +28,5 @@
         <project path="tools-images-hikey960" name="96boards-hikey/tools-images-hikey960.git" revision="a10d2bf1dca7a1be50fc60e58ed93253c95de076" />
         <project path="trusted-firmware-a"    name="TF-A/trusted-firmware-a.git"              revision="refs/tags/v2.2" clone-depth="1" remote="tfo" />
         <project path="xen"                   name="andyzsh68/xen.git"                        revision="stable-4.13" clone-depth="1" remote="github" />
-        <project path="linux-xen"             name="andyzsh68/linux_hikey960_xen.git"         revision="hikey960-upstream-rebase" clone-depth="1" remote="github" />
+        <project path="linux-xen"             name="andyzsh68/linux.git"                      revision="hikey960-upstream-rebase" clone-depth="1" remote="github" />
 </manifest>
